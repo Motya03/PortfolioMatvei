@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Avatar de Matvei</title>
+  <desc id="desc">Silueta de perfil con el nombre Matvei.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f2721"/>
+      <stop offset="0.55" stop-color="#11202b"/>
+      <stop offset="1" stop-color="#241d2b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#42f59b"/>
+      <stop offset="1" stop-color="#2bd3da"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="1200" fill="url(#bg)"/>
+  <path d="M0 180h960M0 360h960M0 540h960M0 720h960M0 900h960M160 0v1200M320 0v1200M480 0v1200M640 0v1200M800 0v1200" stroke="#ffffff" stroke-opacity=".05"/>
+  <circle cx="480" cy="412" r="150" fill="none" stroke="url(#accent)" stroke-width="28"/>
+  <path d="M238 864c38-166 140-250 242-250s204 84 242 250" fill="none" stroke="url(#accent)" stroke-width="32" stroke-linecap="round"/>
+  <rect x="190" y="962" width="580" height="82" rx="12" fill="#08110f" stroke="#42f59b" stroke-opacity=".42"/>
+  <text x="480" y="1015" text-anchor="middle" fill="#edfff6" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">MATVEI</text>
+</svg>

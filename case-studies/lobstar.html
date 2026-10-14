@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LOBSTAR! - Portafolio Matvei</title>
+    <meta name="description" content="LOBSTAR!, videojuego arcade en Unity desarrollado por un equipo del que formo parte Matvei." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+</head>
+<body data-page="case">
+    <canvas id="binaryCanvas" aria-hidden="true"></canvas>
+
+    <div class="wrap">
+        <header class="site-header">
+            <a class="brand" href="../index.html">
+                <span class="logo">PM</span>
+                <span>
+                    <strong>Portafolio Matvei</strong>
+                    <small data-i18n="caseLabel">Caso de estudio</small>
+                </span>
+            </a>
+            <nav class="nav" aria-label="Navegacion de caso">
+                <a href="../index.html#projects" data-i18n="navProjects">Proyectos</a>
+                <a href="../index.html#profile" data-i18n="navProfile">Perfil</a>
+                <a href="../index.html#contact" data-i18n="navContact">Contacto</a>
+            </nav>
+            <button id="langToggle" class="button button-ghost" type="button">English</button>
+        </header>
+
+        <main class="case-hero">
+            <a class="back-link" href="../index.html#projects" data-i18n="caseBack">Volver a proyectos</a>
+            <p class="section-kicker" id="caseCategory" data-text-es="Juegos · Arcade de acción" data-text-en="Games · Action arcade">Juegos · Arcade de acción</p>
+            <h1 id="caseTitle">LOBSTAR!</h1>
+            <p class="lead" id="caseSummary" data-text-es="Videojuego arcade de acción desarrollado en Unity por un equipo del que formó parte Matvei. Ganador en Florida GameFest 2025." data-text-en="Unity action arcade game developed by a team that included Matvei. Winner at Florida GameFest 2025.">Videojuego arcade de acción desarrollado en Unity por un equipo del que formó parte Matvei. Ganador en Florida GameFest 2025.</p>
+            <img id="caseImage" class="case-image" src="../assets/img/lobstar.png" alt="LOBSTAR!" />
+            <div id="caseFacts" class="tag-row">
+                <span>Unity</span>
+                <span data-text-es="Equipo de 9 integrantes" data-text-en="9 team members">Equipo de 9 integrantes</span>
+                <span>2024-2025</span>
+                <span>Florida GameFest 2025</span>
+            </div>
+            <div id="caseLinks" class="hero-actions">
+                <a class="button" href="https://theflash48.github.io/Lobstar/" target="_blank" rel="noopener noreferrer" data-i18n="casePlay">Jugar</a>
+                <a class="button button-ghost" href="../assets/docs/lobstar.pdf" target="_blank" rel="noopener noreferrer" data-i18n="caseDocumentation">Ver documentación PDF</a>
+            </div>
+        </main>
+
+        <section class="section case-layout">
+            <article>
+                <h2 data-i18n="caseOverviewTitle">Resumen</h2>
+                <p id="caseOverview" data-text-es="LOBSTAR! combina acción arcade, una jugabilidad dinámica y una respuesta clara para el jugador. El equipo trabajó en gameplay, interfaz e integración en Unity, con una versión web jugable y material de presentación." data-text-en="LOBSTAR! combines arcade action, dynamic gameplay, and clear player feedback. The team worked on gameplay, UI, and Unity integration, with a playable web build and presentation material.">LOBSTAR! combina acción arcade, una jugabilidad dinámica y una respuesta clara para el jugador. El equipo trabajó en gameplay, interfaz e integración en Unity, con una versión web jugable y material de presentación.</p>
+            </article>
+            <article>
+                <h2 id="caseProcessTitle" data-i18n="caseProcessTitle">Participación de Matvei</h2>
+                <p id="caseProcess" data-text-es="Matvei formó parte del equipo de desarrollo. Su rol y sus tareas específicas están pendientes de detallar." data-text-en="Matvei was part of the development team. His specific role and tasks are yet to be detailed.">Matvei formó parte del equipo de desarrollo. Su rol y sus tareas específicas están pendientes de detallar.</p>
+            </article>
+            <article>
+                <h2 data-i18n="caseOutcomeTitle">Resultado</h2>
+                <p id="caseOutcome" data-text-es="El juego obtuvo el reconocimiento a mejor juego por voto del público y del jurado en Florida GameFest 2025. Se incluyen el tráiler, la documentación y el enlace a la versión jugable del equipo." data-text-en="The game received the best game award from both the audience and jury at Florida GameFest 2025. The team's trailer, documentation, and playable build are included.">El juego obtuvo el reconocimiento a mejor juego por voto del público y del jurado en Florida GameFest 2025. Se incluyen el tráiler, la documentación y el enlace a la versión jugable del equipo.</p>
+            </article>
+        </section>
+
+        <section id="caseMedia" class="section case-media">
+            <h2 id="caseMediaTitle" data-text-es="Tráiler de LOBSTAR!" data-text-en="LOBSTAR! trailer">Tráiler de LOBSTAR!</h2>
+            <video id="caseVideo" src="../assets/media/lobstar-trailer.mp4" poster="../assets/img/lobstar.png" controls playsinline preload="metadata"></video>
+            <p id="caseMediaCaption" class="muted" data-text-es="Tráiler original del equipo con el ciclo arcade y la presentación del juego." data-text-en="The team's original trailer showing the arcade loop and game presentation.">Tráiler original del equipo con el ciclo arcade y la presentación del juego.</p>
+        </section>
+
+        <footer class="footer">
+            <span>&copy; <span id="year"></span> Portafolio Matvei</span>
+        </footer>
+    </div>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nombre del juego - Portafolio Matvei</title>
+    <meta name="description" content="Descripción del videojuego pendiente." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+</head>
+<body data-page="case">
+    <canvas id="binaryCanvas" aria-hidden="true"></canvas>
+    <div class="wrap">
+        <header class="site-header">
+            <a class="brand" href="../index.html">
+                <span class="logo">PM</span>
+                <span>
+                    <strong>Portafolio Matvei</strong>
+                    <small data-i18n="caseLabel">Proyecto de videojuego</small>
+                </span>
+            </a>
+            <nav class="nav" aria-label="Navegación del proyecto">
+                <a href="../index.html#projects" data-i18n="navProjects">Proyectos</a>
+                <a href="../index.html#profile" data-i18n="navProfile">Perfil</a>
+                <a href="../index.html#contact" data-i18n="navContact">Contacto</a>
+            </nav>
+            <button id="langToggle" class="button button-ghost" type="button">English</button>
+        </header>
+
+        <main class="case-hero">
+            <a class="back-link" href="../index.html#projects" data-i18n="caseBack">Volver a proyectos</a>
+            <p class="section-kicker" id="caseCategory" data-i18n="categoryGames">Juegos</p>
+            <h1 id="caseTitle" data-text-es="Nombre del juego" data-text-en="Game name">Nombre del juego</h1>
+            <p class="lead" id="caseSummary" data-text-es="Descripción del videojuego pendiente." data-text-en="Game description to be completed.">Descripción del videojuego pendiente.</p>
+            <img id="caseImage" class="case-image" src="../assets/img/cover-game.svg" alt="Portada del nuevo videojuego" />
+            <div class="tag-row">
+                <span data-text-es="Motor por definir" data-text-en="Engine to be defined">Motor por definir</span>
+                <span data-text-es="Equipo por definir" data-text-en="Team to be defined">Equipo por definir</span>
+                <span data-text-es="Fecha por definir" data-text-en="Date to be defined">Fecha por definir</span>
+            </div>
+        </main>
+
+        <section class="section case-layout">
+            <article>
+                <h2 data-i18n="caseOverviewTitle">Resumen</h2>
+                <p data-text-es="Contexto, género y objetivo del juego por completar." data-text-en="Game context, genre, and objective to be completed.">Contexto, género y objetivo del juego por completar.</p>
+            </article>
+            <article>
+                <h2 data-i18n="caseProcessTitle">Participación de Matvei</h2>
+                <p data-text-es="Rol, tareas y aportación de Matvei por completar." data-text-en="Matvei's role, tasks, and contribution to be completed.">Rol, tareas y aportación de Matvei por completar.</p>
+            </article>
+            <article>
+                <h2 data-i18n="caseOutcomeTitle">Resultado</h2>
+                <p data-text-es="Resultados, aprendizajes y material del proyecto por completar." data-text-en="Project results, learning, and material to be completed.">Resultados, aprendizajes y material del proyecto por completar.</p>
+            </article>
+        </section>
+
+        <footer class="footer">
+            <span>&copy; <span id="year"></span> Portafolio Matvei</span>
+        </footer>
+    </div>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

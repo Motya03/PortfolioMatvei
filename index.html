@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portafolio Matvei</title>
+    <meta name="description" content="Proyectos de videojuegos de Matvei: LOBSTAR! y Smack That Rooster."
+        data-text-es="Proyectos de videojuegos de Matvei: LOBSTAR! y Smack That Rooster."
+        data-text-en="Matvei's game projects: LOBSTAR! and Smack That Rooster." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body data-page="home">
+    <canvas id="binaryCanvas" aria-hidden="true"></canvas>
+
+    <div class="wrap">
+        <header class="site-header">
+            <a class="brand" href="#home" aria-label="Portafolio Matvei">
+                <span class="logo">PM</span>
+                <span>
+                    <strong>Portafolio Matvei</strong>
+                    <small data-text-es="Proyectos de videojuegos" data-text-en="Game projects">Proyectos de videojuegos</small>
+                </span>
+            </a>
+            <nav class="nav" aria-label="Navegación principal">
+                <a href="#home" data-i18n="navHome">Inicio</a>
+                <a href="#profile" data-i18n="navProfile">Perfil</a>
+                <a href="#projects" data-i18n="navProjects">Proyectos</a>
+                <a href="#contact" data-i18n="navContact">Contacto</a>
+            </nav>
+            <button id="langToggle" class="button button-ghost" type="button">English</button>
+        </header>
+
+        <main id="home" class="hero">
+            <section class="hero-copy" aria-labelledby="hero-title">
+                <p class="section-kicker" data-text-es="Videojuegos" data-text-en="Games">Videojuegos</p>
+                <h1 id="hero-title">Portafolio Matvei</h1>
+                <p class="lead"
+                    data-text-es="Proyectos de videojuegos desarrollados en equipo: LOBSTAR! y Smack That Rooster."
+                    data-text-en="Games developed as a team: LOBSTAR! and Smack That Rooster.">Proyectos de videojuegos desarrollados en equipo: LOBSTAR! y Smack That Rooster.</p>
+                <div class="tag-row" aria-label="Áreas de los proyectos">
+                    <span>Unity</span>
+                    <span data-text-es="Arcade" data-text-en="Arcade">Arcade</span>
+                    <span data-text-es="Multijugador" data-text-en="Multiplayer">Multijugador</span>
+                </div>
+                <div class="hero-actions">
+                    <a class="button" href="#projects" data-i18n="viewProjects">Ver proyectos</a>
+                    <a class="button button-ghost" href="#contact" data-i18n="navContact">Contacto</a>
+                </div>
+                <div class="proof-grid" aria-label="Resumen del portafolio">
+                    <div>
+                        <strong data-text-es="2 videojuegos" data-text-en="2 games">2 videojuegos</strong>
+                        <span>LOBSTAR! / Smack That Rooster</span>
+                    </div>
+                    <div>
+                        <strong>Unity</strong>
+                        <span data-text-es="Motor de los proyectos" data-text-en="Project engine">Motor de los proyectos</span>
+                    </div>
+                    <div>
+                        <strong data-text-es="En equipo" data-text-en="Teamwork">En equipo</strong>
+                        <span data-text-es="Proyectos colaborativos" data-text-en="Collaborative projects">Proyectos colaborativos</span>
+                    </div>
+                </div>
+            </section>
+            <aside class="profile-panel" aria-label="Matvei">
+                <img src="assets/img/profile-placeholder.svg" alt="Avatar de Matvei" />
+                <div class="profile-panel-footer">
+                    <strong>Matvei</strong>
+                    <span data-text-es="LOBSTAR! y Smack That Rooster" data-text-en="LOBSTAR! and Smack That Rooster">LOBSTAR! y Smack That Rooster</span>
+                </div>
+            </aside>
+        </main>
+
+        <section id="profile" class="section">
+            <p class="section-kicker" data-i18n="navProfile">Perfil</p>
+            <h2 data-text-es="Sobre Matvei" data-text-en="About Matvei">Sobre Matvei</h2>
+            <p class="section-intro"
+                data-text-es="Matvei ha participado en el desarrollo de LOBSTAR! y Smack That Rooster. Este portafolio reúne los proyectos y sus materiales de presentación."
+                data-text-en="Matvei took part in the development of LOBSTAR! and Smack That Rooster. This portfolio brings together the projects and their presentation material.">Matvei ha participado en el desarrollo de LOBSTAR! y Smack That Rooster. Este portafolio reúne los proyectos y sus materiales de presentación.</p>
+        </section>
+
+        <section id="projects" class="section">
+            <p class="section-kicker" data-text-es="Trabajo seleccionado" data-text-en="Selected work">Trabajo seleccionado</p>
+            <h2 data-text-es="Proyectos de Matvei" data-text-en="Matvei's projects">Proyectos de Matvei</h2>
+            <p class="section-intro"
+                data-text-es="Arcade de acción y combate multijugador desarrollados en equipo."
+                data-text-en="Action arcade and multiplayer combat developed as a team.">Arcade de acción y combate multijugador desarrollados en equipo.</p>
+            <div class="category-bar" aria-label="Categoría de proyectos">
+                <span class="category-label"><span data-i18n="categoryGames">Juegos</span><strong id="projectCount">3</strong></span>
+            </div>
+            <div class="cards">
+                <a class="card card-game" href="case-studies/lobstar.html" data-categories="game">
+                    <img src="assets/img/lobstar.png" alt="Portada de LOBSTAR!" loading="lazy" decoding="async">
+                    <span class="project-category" data-i18n="categoryGames">Juegos</span>
+                    <h3>LOBSTAR!</h3>
+                    <p data-text-es="Arcade de acción en Unity, ganador en Florida GameFest 2025. Matvei formó parte del equipo de desarrollo."
+                        data-text-en="Unity action arcade game, winner at Florida GameFest 2025. Matvei was part of the development team.">Arcade de acción en Unity, ganador en Florida GameFest 2025. Matvei formó parte del equipo de desarrollo.</p>
+                    <div class="project-tags">
+                        <span data-text-es="Unity · Trabajo en equipo" data-text-en="Unity · Team project">Unity · Trabajo en equipo</span>
+                        <span data-text-es="Tráiler y versión jugable" data-text-en="Trailer and playable build">Tráiler y versión jugable</span>
+                    </div>
+                    <strong class="project-link" data-i18n="viewCaseStudy">Ver proyecto</strong>
+                </a>
+                <a class="card card-game" href="case-studies/smack-that-rooster.html" data-categories="game">
+                    <img src="assets/img/smack-that-rooster.png" alt="Portada de Smack That Rooster" loading="lazy" decoding="async">
+                    <span class="project-category" data-i18n="categoryGames">Juegos</span>
+                    <h3>Smack That Rooster</h3>
+                    <p data-text-es="Combate multijugador en Unity con rondas rápidas, vida, temporizador y condiciones de victoria. Matvei participó en el equipo."
+                        data-text-en="Unity multiplayer combat with quick rounds, health, a timer, and win conditions. Matvei was part of the team.">Combate multijugador en Unity con rondas rápidas, vida, temporizador y condiciones de victoria. Matvei participó en el equipo.</p>
+                    <div class="project-tags">
+                        <span data-text-es="Unity · Multijugador" data-text-en="Unity · Multiplayer">Unity · Multijugador</span>
+                        <span data-text-es="Gameplay y documentación" data-text-en="Gameplay and documentation">Gameplay y documentación</span>
+                    </div>
+                    <strong class="project-link" data-i18n="viewCaseStudy">Ver proyecto</strong>
+                </a>
+
+                <!-- Duplica este bloque para agregar otro videojuego. -->
+                <a class="card card-game" href="case-studies/nuevo-juego.html" data-categories="game">
+                    <img src="assets/img/cover-game.svg" alt="Portada del nuevo videojuego" loading="lazy" decoding="async">
+                    <span class="project-category" data-i18n="categoryGames">Juegos</span>
+                    <h3 data-text-es="Nombre del juego" data-text-en="Game name">Nombre del juego</h3>
+                    <p data-text-es="Descripción del videojuego pendiente." data-text-en="Game description to be completed.">Descripción del videojuego pendiente.</p>
+                    <div class="project-tags">
+                        <span data-text-es="Motor por definir" data-text-en="Engine to be defined">Motor por definir</span>
+                        <span data-text-es="Rol de Matvei por definir" data-text-en="Matvei's role to be defined">Rol de Matvei por definir</span>
+                    </div>
+                    <strong class="project-link" data-i18n="viewCaseStudy">Ver proyecto</strong>
+                </a>
+                <!-- Fin de la tarjeta reutilizable. -->
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <p class="section-kicker" data-i18n="navContact">Contacto</p>
+            <h2 data-text-es="Contacto de Matvei" data-text-en="Contact Matvei">Contacto de Matvei</h2>
+            <p class="section-intro" data-text-es="Datos de contacto pendientes." data-text-en="Contact details to be completed.">Datos de contacto pendientes.</p>
+        </section>
+
+        <footer class="footer">
+            <span>&copy; <span id="year"></span> Portafolio Matvei</span>
+        </footer>
+    </div>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
