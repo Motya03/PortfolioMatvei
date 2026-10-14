@@ -1,221 +1,76 @@
-```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <title>El Guardián de los Terrarios | Portfolio Matvei</title>
-
-    <meta name="description"
-          content="Proyecto de videojuego de plataformas 3D desarrollado con Unity. Portfolio de Matvei." />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap"
-          rel="stylesheet" />
-
+    <title>Portafolio Matvei</title>
+    <meta name="description" content="El guardian de los terrarios." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/styles.css" />
 </head>
-
 <body data-page="case">
-
     <canvas id="binaryCanvas" aria-hidden="true"></canvas>
 
     <div class="wrap">
-
         <header class="site-header">
-
             <a class="brand" href="../index.html">
                 <span class="logo">PM</span>
-
                 <span>
-                    <strong>Portfolio Matvei</strong>
+                    <strong>Portafolio Matvei</strong>
                     <small data-i18n="caseLabel">Caso de estudio</small>
                 </span>
             </a>
-
-            <nav class="nav" aria-label="Navegación del proyecto">
-                <a href="../index.html#projects" data-i18n="navProjects">
-                    Proyectos
-                </a>
-
-                <a href="../index.html#profile" data-i18n="navProfile">
-                    Perfil
-                </a>
-
-                <a href="../index.html#contact" data-i18n="navContact">
-                    Contacto
-                </a>
+            <nav class="nav" aria-label="Navegacion de caso">
+                <a href="../index.html#projects" data-i18n="navProjects">Proyectos</a>
+                <a href="../index.html#profile" data-i18n="navProfile">Perfil</a>
+                <a href="../index.html#contact" data-i18n="navContact">Contacto</a>
             </nav>
-
-            <button id="langToggle"
-                    class="button button-ghost"
-                    type="button"
-                    aria-label="Cambiar idioma">
-                English
-            </button>
-
+            <button id="langToggle" class="button button-ghost" type="button">English</button>
         </header>
 
-        <main>
-
-            <section class="case-hero">
-
-                <a class="back-link"
-                   href="../index.html#projects"
-                   data-i18n="caseBack">
-                    Volver a proyectos
-                </a>
-
-                <p class="section-kicker"
-                   id="caseCategory"
-                   data-text-es="Videojuegos · Plataformas 3D"
-                   data-text-en="Games · 3D Platformer">
-                    Videojuegos · Plataformas 3D
-                </p>
-
-                <h1 id="caseTitle">
-                    El Guardián de los Terrarios
-                </h1>
-
-                <p class="lead"
-                   id="caseSummary"
-                   data-text-es="Un videojuego de plataformas 3D en el que juegas como Cael, un niño transportado a un mundo de terrarios creado a partir de los recuerdos de su padre."
-                   data-text-en="A 3D platformer in which you play as Cael, a child transported to a terrarium world created from his father's memories.">
-                    Un videojuego de plataformas 3D en el que juegas como Cael,
-                    un niño transportado a un mundo de terrarios creado a partir
-                    de los recuerdos de su padre.
-                </p>
-
-                <img id="caseImage"
-                     class="case-image"
-                     src="../assets/img/El Guardian de los Terrarios.png"
-                     alt="Imagen de El Guardián de los Terrarios" />
-
+        <main class="case-hero">
+            <a class="back-link" href="../index.html#projects" data-i18n="caseBack">Volver a proyectos</a>
+            <p class="section-kicker" id="caseCategory" data-text-es="Juegos · Combate multijugador" data-text-en="Games · Multiplayer combat">Juegos · Combate multijugador</p>
+            <h1 id="caseTitle">El Guardian de los Terrarios</h1>
+            <p class="lead" id="caseSummary" data-text-es=" Plataformeo 3D, donde juegas como Cael, un nino transprtado al terrario creado por las memorias de su padre." data-text-en="Game description to be completed.">
+                3D platformer where you play as Cael, a child transported into a terrarium world created from his father's memories.</p>
+                <img id="caseImage" class="case-image" src="../assets/img/El Guardian de los Terrarios.png" alt="El Guardian de los Terrarios" />
                 <div id="caseFacts" class="tag-row">
-
                     <span>Unity</span>
-
-                    <span data-text-es="Plataformas 3D"
-                          data-text-en="3D Platformer">
-                        Plataformas 3D
-                    </span>
-
+                    <span data-text-es="Multijugador" data-text-en="Multiplayer">Multijugador</span>
                     <span>Blender</span>
 
                 </div>
-
                 <div id="caseLinks" class="hero-actions">
-
-                    <!-- Sustituye el archivo por la documentación correcta
-                         si el PDF actual pertenece a otro proyecto. -->
-
-                    <a class="button"
-                       href="../assets/docs/smack-that-rooster.pdf"
-                       target="_blank"
-                       rel="noopener noreferrer"
-                       data-i18n="caseDocumentation">
-                        Ver documentación PDF
-                    </a>
-
+                    <a class="button" href="../assets/docs/smack-that-rooster.pdf" target="_blank" rel="noopener noreferrer" data-i18n="caseDocumentation">Ver documentación PDF</a>
                 </div>
-
-            </section>
-
-            <section id="caseMedia"
-                     class="section case-media"
-                     aria-labelledby="caseMediaTitle">
-
-                <h2 id="caseMediaTitle"
-                    data-text-es="Gameplay de El Guardián de los Terrarios"
-                    data-text-en="El Guardián de los Terrarios Gameplay">
-                    Gameplay de El Guardián de los Terrarios
-                </h2>
-
-                <!-- Cambia la ruta por la del vídeo correcto.
-                     Si no tienes vídeo, puedes eliminar esta sección. -->
-
-                <video id="caseVideo"
-                       src="../assets/media/smack-that-rooster-gameplay.mp4"
-                       poster="../assets/img/El Guardian de los Terrarios.png"
-                       controls
-                       playsinline
-                       preload="metadata">
-                    Tu navegador no admite la reproducción de vídeo.
-                </video>
-
-                <p id="caseMediaCaption"
-                   class="muted"
-                   data-text-es="Vídeo del proyecto que muestra la jugabilidad y sus principales características."
-                   data-text-en="Project footage showcasing the gameplay and its main features.">
-                    Vídeo del proyecto que muestra la jugabilidad y sus
-                    principales características.
-                </p>
-
-            </section>
-
-            <section class="section"
-                     aria-labelledby="caseOverviewTitle">
-
-                <article>
-
-                    <h2 id="caseOverviewTitle"
-                        data-i18n="caseOverviewTitle">
-                        Resumen del proyecto
-                    </h2>
-
-                    <p id="caseOverview"
-                       data-text-es="El Guardián de los Terrarios es un videojuego de plataformas 3D protagonizado por Cael. La aventura se desarrolla en un mundo de terrarios inspirado en los recuerdos de su padre."
-                       data-text-en="El Guardián de los Terrarios is a 3D platformer starring Cael. The adventure takes place in a terrarium world inspired by his father's memories.">
-                        El Guardián de los Terrarios es un videojuego de
-                        plataformas 3D protagonizado por Cael. La aventura se
-                        desarrolla en un mundo de terrarios inspirado en los
-                        recuerdos de su padre.
-                    </p>
-
-                </article>
-
-            </section>
-
-            <section class="section"
-                     aria-labelledby="caseProcessTitle">
-
-                <article>
-
-                    <h2 id="caseProcessTitle"
-                        data-text-es="Mi participación"
-                        data-text-en="My Contribution">
-                        Mi participación
-                    </h2>
-
-                    <p id="caseProcess"
-                       data-text-es="En este apartado se describirán las tareas, responsabilidades y contribuciones realizadas durante el desarrollo del proyecto."
-                       data-text-en="This section will describe the tasks, responsibilities, and contributions undertaken during the development of the project.">
-                        En este apartado se describirán las tareas,
-                        responsabilidades y contribuciones realizadas durante
-                        el desarrollo del proyecto.
-                    </p>
-
-                </article>
-
-            </section>
-
         </main>
 
+        <section class="section case-layout">
+        </section>
+
+        <section id="caseMedia" class="section case-media">
+            <h2 id="caseMediaTitle" data-text-es="Gameplay de Smack That Rooster" data-text-en="Smack That Rooster gameplay">Gameplay de Smack That Rooster</h2>
+            <video id="caseVideo" src="../assets/media/smack-that-rooster-gameplay.mp4" poster="../assets/img/smack-that-rooster.png" controls playsinline preload="metadata"></video>
+            <p id="caseMediaCaption" class="muted" data-text-es="Vídeo original del equipo con el combate multijugador y el ritmo de las partidas." data-text-en="The team's original video showing multiplayer combat and match pacing.">Vídeo original del equipo con el combate multijugador y el ritmo de las partidas.</p>
+        </section>
+        <article>
+            <h2 data-i18n="caseOverviewTitle">Resumen</h2>
+            <p id="caseOverview" data-text-es="Los jugadores combaten en rondas cortas. El sistema de vida, el temporizador y las condiciones de victoria conectan el combate con el final de partida y la pantalla de resultados." data-text-en="Players fight in short rounds. Health, a timer, and win conditions connect combat to the end of the match and the results screen.">Los jugadores combaten en rondas cortas. El sistema de vida, el temporizador y las condiciones de victoria conectan el combate con el final de partida y la pantalla de resultados.</p>
+        </article>
+
+        <article>
+            <h2 id="caseProcessTitle" data-i18n="caseProcessTitle">Participación de Matvei</h2>
+            <p id="caseProcess" data-text-es="Matvei participó en el equipo de desarrollo. Su rol y sus tareas específicas están pendientes de detallar." data-text-en="Matvei was part of the development team. His specific role and tasks are yet to be detailed.">Matvei participó en el equipo de desarrollo. Su rol y sus tareas específicas están pendientes de detallar.</p>
+        </article>
+
         <footer class="footer">
-
-            <span>
-                &copy; <span id="year"></span> Portfolio Matvei
-            </span>
-
+            <span>&copy; <span id="year"></span> Portafolio Matvei</span>
         </footer>
-
     </div>
 
     <script src="../assets/js/main.js"></script>
-
 </body>
 </html>
-```
