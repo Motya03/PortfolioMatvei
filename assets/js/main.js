@@ -13,7 +13,7 @@ const texts = {
         caseLabel: "Proyecto de videojuego",
         caseBack: "Volver a proyectos",
         caseOverviewTitle: "Resumen",
-        caseProcessTitle: "Participación de Matvei",
+        caseProcessTitle: "Mi aportacion ",
         caseOutcomeTitle: "Resultado",
         casePlay: "Jugar",
         caseDocumentation: "Ver documentación PDF"
@@ -29,7 +29,7 @@ const texts = {
         caseLabel: "Game project",
         caseBack: "Back to projects",
         caseOverviewTitle: "Overview",
-        caseProcessTitle: "Matvei's participation",
+        caseProcessTitle: "My participation",
         caseOutcomeTitle: "Outcome",
         casePlay: "Play",
         caseDocumentation: "View project PDF"
