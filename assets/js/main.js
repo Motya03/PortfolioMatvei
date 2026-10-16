@@ -14,7 +14,8 @@ const texts = {
         caseBack: "Volver a proyectos",
         caseOverviewTitle: "Resumen",
         caseProcessTitle: "Mi aportacion ",
-        caseOutcomeTitle: "Resultado",
+         caseProcessTitle: "Mi aportacion ",
+        caseAboutGameTitle: "Sobre el Juego",
         casePlay: "Jugar",
         caseDocumentation: "Ver documentación PDF"
     },
@@ -23,6 +24,7 @@ const texts = {
         navProfile: "Profile",
         navProjects: "Projects",
         navContact: "Contact",
+        caseAboutGameTitle: "About the Game",
         viewProjects: "View projects",
         categoryGames: "Games",
         viewCaseStudy: "View project",
@@ -33,6 +35,8 @@ const texts = {
         caseOutcomeTitle: "Outcome",
         casePlay: "Play",
         caseDocumentation: "View project PDF"
+        
+        
     }
 };
 
